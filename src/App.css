@@ -1,0 +1,143 @@
+.social-icon {
+    transition: transform 0.2s;
+    color: white;
+    font-size: larger;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text-hover {
+    padding: 5px 10px; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+}
+
+.text-hover:hover {
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px; 
+}
+
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+/* Navbar  */
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #0056b3; 
+}
+
+.nav-link {
+    transition: transform 0.2s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* App.css or your styles.css file */
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FFD700; 
+    transform: scale(1.1); 
+}
+
+/* Animation for the entire navbar */
+.navbar {
+    animation: animate__fadeInDown 0.5s ease-in-out;
+}
+
+
+/* Footer  */
+
+.footer {
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #1d1d1d; 
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); 
+}
+/* App.css or your styles.css file */
+.social-icon {
+    font-size: 24px; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #FFD700; 
+    transform: scale(1.2); 
+}
+
+
+/* body  */
+
+body{
+    background-color: bisque;
+}
+
+/* singup  */
+
+.signup-container {
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-title {
+    color: #444; 
+}
+
+.signup-form img {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+
+/* App.css or your styles.css file */
+.interactive-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.interactive-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    transition: background-color 0.3s;
+}
+
+.card-body:hover {
+    background-color: rgba(240, 240, 240, 0.5); 
+}
+
+
+
+
